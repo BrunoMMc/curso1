@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/OpenSans-Light.ttf");
+    font-size: 1em;
+}
+
+
+header {
+
+    width: 100%;
+    height: 150px;
+    background-color: rgba(98, 27, 165, 0.877);
+    z-index: 2;
+    position: relative;
+}
+header .container {
+    color: rgba(128, 255, 0, 0);
+    background-color: rgba(210, 105, 30, 0);
+    position: relative;
+
+}
+header .header-black {
+    background-color: black;  
+    height: 40px;
+}
+header .header-black li {
+    background-image: url(../img/clubes.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 4px 4px;
+}
+header .header-black li.clube-01 {
+    background-position: 0px 0px;
+}
+header .header-black li.clube-02 {
+    background-position: -48px 0px;
+}
+header .header-black li.clube-03 {
+    background-position: -95px 0px;
+}
+header .header-black li.clube-04 {
+    background-position: -140px 0px;
+}
+header .header-black li.clube-05 {
+    background-position: -190px 0px;
+}
+header .header-black li.clube-06 {
+    background-position: -239px 0px;
+}
+header .header-black li.clube-07 {
+    background-position: -287px 0px;
+}
+header .header-black li.clube-08 {
+    background-position: -335px 0px;
+}
+header .header-black li.clube-09 {
+    background-position: -380px 0px;
+}
+header .header-black li.clube-10 {
+    background-position: -430px 0px;
+}
+header .header-black li.clube-11 {
+    background-position: -480px 0px;
+}
+header .header-black li.clube-12 {
+    background-position: -530px 0px;
+}
+header .header-black li.clube-13 {
+    background-position: -578px 0px;
+}
+header .header-black li.clube-14 {
+    background-position: -628px 0px;
+}
+header .header-black li.clube-15 {
+    background-position: -675px 0px;
+}
+header .header-black li.clube-16 {
+    background-position: -720px 0px;
+}
+header .header-black li.clube-17 {
+    background-position: -765px 0px;
+}
+header .header-black li.clube-18 {
+    background-position: -809px 0px;
+}
+header .header-black li.clube-19 {
+    background-position: -857px 0px;
+}
+header .header-black li.clube-20 {
+    background-position: -905px 0px;
+}
+header .header-black li.clube-21 {
+    background-position: -949px 0px;
+}
+header .header-black li.clube-22 {
+    background-position: -1000px 0px;
+}
+header .header-black li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+
+}
+header #logotipo {
+    position: absolute;
+    top: -20px;
+}
+#menu {
+    margin: 15px 0px;
+}
+#menu li {
+    display: inline-block;
+    font-family: 'Opensans';
+}
+#menu li.search input {
+    background-color: rgb(74, 9, 134);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+#menu li.search ::placeholder {
+    color: rgba(255, 255, 255, 0.521);
+}
+#menu li.search button {
+    background-color: rgba(199, 21, 134, 0);
+    border-color:blueviolet;
+}
+#menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+#banner {
+    width: 100%;
+    height: 115vh;
+    position: relative;
+    background: url(..//img/banner.jpg) no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    top: -230px;
+}
+#banner h1 {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'OpenSans-Light'; 
+    margin-left: 90px;
+    top: 400px;
+    position: absolute;
+    
+}
+#banner h1 small {
+    font-size: 23px;
+    display: block; 
+    font-family: 'OpenSans';
+    font-weight: bold;
+}
+#news {
+    position: relative;
+    top: -190px;
+    
+    
+}
+#news h2 {
+    color: rgb(113, 47, 151);
+    font-family: 'OpenSans-Light';
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+#news hr {
+    border: rgb(255, 184, 41) solid 2px;
+    margin: o auto;
+    
+}
+
